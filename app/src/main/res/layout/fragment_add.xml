@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".fragment.Add">-->
+
+<!--    -->
+
+<!--</FrameLayout>-->
+
+<!-- res/layout/activity_upload.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/designadd_img"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:id="@+id/editTextCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/bluegrey50"
+        android:hint="Type Caption" />
+
+    <EditText
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="start|top"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/bluegrey50"
+        android:hint="Desc" />
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cyan100"
+        android:text="Upload" />
+
+</LinearLayout>
