@@ -4,6 +4,9 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:fitsSystemWindows">true</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="android:statusBarColor">@color/bluegrey50</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="Theme.Belajar" parent="Base.Theme.Belajar" />
